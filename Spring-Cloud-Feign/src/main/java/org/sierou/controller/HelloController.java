@@ -19,7 +19,7 @@ public class HelloController {
     @Autowired
     private FeignService feignService;
 
-    @GetMapping(value = "/feign")
+    @GetMapping(value = "/reference")
     public String referenceEureka(@RequestParam (value = "name") String name){
         return feignService.referenceEureka(name);
     }

@@ -14,12 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
  * @Create 2017-08-01 下午10:55
  */
 @RestController
+@RequestMapping(value = "/ribbon")
 public class HelloController {
 
     @Autowired
     private HelloService helloService;
 
-    @GetMapping(value = "/hellorabbin")
+    @GetMapping(value = "/reference")
     public String hello(@RequestParam (value = "name") String name){
         return helloService.hello(name);
     }
