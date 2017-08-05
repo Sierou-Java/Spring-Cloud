@@ -21,13 +21,23 @@
     <module>../Spring-Cloud-Eureka-Server</module>
     <module>../Spring-Cloud-Eureka-Client</module>
     <module>../Spring-Cloud-Ribbon</module>
+    <module>../Spring-Cloud-Feign</module>
   </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring-cloud.version>Dalston.RELEASE</spring-cloud.version>
   </properties>
 
-  <dependencies>
-
-  </dependencies>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>

@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
-
 /**
  * 一个服务注册中心，eureka server, 端口为8761
  * eureka-service-hello-world工程跑了两个副本，端口分别为8762,8763，分别向服务注册中心注册 [集群]
@@ -17,6 +17,9 @@ import org.springframework.web.client.RestTemplate;
  */
 @SpringBootApplication
 @EnableDiscoveryClient
+@EnableHystrix
+// hystrix 仪表盘
+@EnableHystrixDashboard
 public class SpringCloudRibbonApplication {
 
 	public static void main(String[] args) {

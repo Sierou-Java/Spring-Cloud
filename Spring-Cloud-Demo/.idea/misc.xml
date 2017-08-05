@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../Spring-Cloud-Eureka-Client/pom.xml" />
         <option value="$PROJECT_DIR$/../Spring-Cloud-Ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring-Cloud-Feign/pom.xml" />
       </list>
     </option>
   </component>

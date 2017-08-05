@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-Cloud-Eureka-Client" />
         <module name="Spring-Cloud-Eureka-Server" />
+        <module name="Spring-Cloud-Feign" />
         <module name="Spring-Cloud-Ribbon" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="Spring-Cloud-Demo" target="1.6" />
       <module name="Spring-Cloud-Eureka-Client" target="1.8" />
       <module name="Spring-Cloud-Eureka-Server" target="1.8" />
+      <module name="Spring-Cloud-Feign" target="1.8" />
       <module name="Spring-Cloud-Ribbon" target="1.8" />
       <module name="spring-cloud-ribbon" target="1.8" />
     </bytecodeTargetLevel>

@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Spring-Cloud-Eureka-Client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Spring-Cloud-Eureka-Server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Spring-Cloud-Feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../Spring-Cloud-Ribbon" charset="UTF-8" />
   </component>
 </project>
