@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../Spring-Cloud-Eureka-Server/Spring-Cloud-Eureka-Server.iml" filepath="$PROJECT_DIR$/../Spring-Cloud-Eureka-Server/Spring-Cloud-Eureka-Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Spring-Cloud-Feign/Spring-Cloud-Feign.iml" filepath="$PROJECT_DIR$/../Spring-Cloud-Feign/Spring-Cloud-Feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Spring-Cloud-Ribbon/Spring-Cloud-Ribbon.iml" filepath="$PROJECT_DIR$/../Spring-Cloud-Ribbon/Spring-Cloud-Ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Spring-Cloud-Zuul/Spring-Cloud-Zuul.iml" filepath="$PROJECT_DIR$/../Spring-Cloud-Zuul/Spring-Cloud-Zuul.iml" />
     </modules>
   </component>
 </project>
